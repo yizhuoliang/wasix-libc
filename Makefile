@@ -204,6 +204,7 @@ LIBC_TOP_HALF_MUSL_SOURCES = \
                  %/tmpnam.c %/tmpfile.c %/tempnam.c \
                  %/popen.c %/pclose.c \
                  %/remove.c \
+                 %/memfd_create.c \
                  %/gets.c, \
                  $(wildcard $(LIBC_TOP_HALF_MUSL_SRC_DIR)/stdio/*.c)) \
     $(wildcard $(LIBC_TOP_HALF_MUSL_SRC_DIR)/string/*.c) \
